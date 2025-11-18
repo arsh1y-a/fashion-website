@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fashion as Resistance — Movie Costumes & Women's Stories</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="hero-header">
+    <nav class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#struggles">The Bigger Picture</a>
+      <a href="#characters">Character Transformation</a>
+      <a href="#conclusion">Conclusion</a>
+    </nav>
+  </div>
+  <!-- HERO -->
+  <section id="hero" class="hero-landing">
+    <div class="hero-inner">
+      <h1 class="hero-title">Fashion as Resistance — Movie Costumes & Women's Stories</h1>
+      <p class="hero-sub">
+        Exploring how iconic women in film use fashion as a language of survival, rebellion, and identity.
+      </p>
+      <button id="exploreBtn" class="btn">Explore ↓</button>
+    </div>
+  </section>
+
+  <!-- SECTION 1: STRUGGLES -->
+  <section id="struggles" class="section">
+    <h2>The Bigger Picture</h2>
+    <p class="section-lead">
+      Fashion in cinema is never just fabric — it is a visual diary of a woman's internal world.
+    </p>
+    <div class="cards">
+      <div class="card">
+        <h3>Patriarchy & The Body</h3>
+        <p>What women wear is often controlled, judged, or weaponized. Costumes reveal how they reclaim space.</p>
+      </div>
+      <div class="card">
+        <h3>Fashion as Rebellion</h3>
+        <p>Colour shifts, silhouettes, and bold choices mark turning points — rebellion shown before spoken.</p>
+      </div>
+      <div class="card">
+        <h3>Identity & Transformation</h3>
+        <p>As characters evolve, their clothing evolves: from suppression → expression → ownership.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: FLIP CARDS -->
+  <section id="characters" class="section">
+    <h2>Character Transformations</h2>
+    <p class="section-lead">Click the cards to reveal & open the character's journey.</p>
+    <div class="gallery">
+      <!-- RANI -->
+      <div class="flip-card" data-target="rani.html" tabindex="0">
+        <div class="flip-card-inner">
+          <div class="flip-card-front"><p>Rani – Queen</p></div>
+          <div class="flip-card-back"></div>
+        </div>
+      </div>
+      <!-- ANDY -->
+      <div class="flip-card" data-target="andy.html" tabindex="0">
+        <div class="flip-card-inner">
+          <div class="flip-card-front"><p>Andy – The Devil Wears Prada</p></div>
+          <div class="flip-card-back"></div>
+        </div>
+      </div>
+      <!-- CRUELLA -->
+      <div class="flip-card" data-target="cruella.html" tabindex="0">
+        <div class="flip-card-inner">
+          <div class="flip-card-front"><p>Cruella – Cruella</p></div>
+          <div class="flip-card-back"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: CONCLUSION -->
+  <section id="conclusion" class="section">
+    <h2>Conclusion</h2>
+    <p class="section-lead">
+      Costumes in cinema are political. They speak for women when society refuses to listen.  
+      Every transformation — subtle or explosive — is a narrative of power.
+    </p>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <img id="lightbox-img" alt="">
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
